@@ -169,7 +169,7 @@ pub async fn main() {
             warn!("Tearing down cluster now");
         }
     }
-    runner.teardown().await;
+    //runner.teardown().await;
     let perf_msg = exit_on_error(result);
 
     if let Some(mut changelog) = args.changelog {
